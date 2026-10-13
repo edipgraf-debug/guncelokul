@@ -4,7 +4,6 @@ services:
   - type: web
     name: kardelen-okul-test
     runtime: node
-    rootDir: kardelen-okul       # GitHub deposunda kod bu alt klasörde (depo kökü bir üst klasör)
     region: frankfurt            # Türkiye'ye en yakın bölge; sonradan değiştirilemez
     plan: free
     buildCommand: npm ci && npm run build:sunucu
